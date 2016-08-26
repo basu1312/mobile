@@ -1,0 +1,238 @@
+body
+{
+	font-family:arial;
+	text-align:center;
+	 background:url("red_bowers_and_wilkins_p3_headphones-wallpaper-1400x1050.jpg");
+	 width:1300px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+he
+{
+margin:0px;
+padding:0px;
+float:left;	
+}
+
+#div2
+{
+	background:grey;
+	height:100px;
+	width:1350px;
+	line-height:90px;
+	opacity:0.5;
+}
+#div2 h1
+{
+	float:left;
+	font-weight:400;
+	color:white;
+	cursor:pointer;
+	margin-left:10px;
+}
+
+#div2 ul
+{
+  float:right;
+  position:relative; 
+  margin-right:100px;
+  line-height:55px;
+  
+}
+
+#div2 ul li
+{
+list-style-type:none;
+display:inline-block;	
+}
+
+#div2 ul li a
+{
+text-decoration:none;
+padding:22px;
+color:white;
+display:block;
+}
+
+#div2 ul li:hover
+{
+	background:#29B59F;
+	transition: all 0.40s;
+	border: 1px solid #B1D731;
+	border-radius:6px;
+
+}
+#nav1
+{
+animation-duration:1.6s;
+animation-iteration-count:1;	
+}
+
+#div2 ul li:hover ul
+{
+display:block;
+}
+
+#div2 ul ul
+{
+	display:none;
+	width:120px;
+	position:absolute;
+	line-height:30px;
+	
+}
+ #div2 ul li li
+ {
+	 background:#29B59F;
+	 display:block;
+	 width:105px;
+	 border:5px onset grey;
+      
+ }
+
+#div2 ul li li a
+{
+	padding:20px;
+	color:white;
+}
+#div2 ul li li:hover
+{
+background:#11A18A;	
+transition: all 0.40s;
+border: 1px solid olive;
+}
+ 
+#main
+{
+	width:100%;
+	height:300px;
+    text-align:center;  
+}
+
+p
+{
+	padding:100px;
+	font-size:18px;
+	opacity:0.6;
+	color:white;
+	
+}
+
+#login
+{
+	width:330px;
+	height:440px;
+}
+#div1
+{
+	width:330px;
+	height:240px;
+	background-color:linear-gradient(to bottom,white,grey);
+	opacity:0.5;
+	margin:80px 0 0 60px;
+	padding:15px 0 0 30px;
+	border-radius:15px;
+	color:white;
+	font-weight:bolder;
+	box-shadow:4px 4px 4px #6F833A;
+}
+
+#div1 input[type="text"]
+{
+	width:260px;
+	height:35px;
+	border-radius:5px;
+	margin-left:-60px;
+}
+
+
+#div1 input[type="password"]
+{
+	width:260px;
+	height:35px;
+	border-radius:5px;
+	margin-left:-60px;
+}
+
+#div1 input[type="submit"]
+{
+	width:100px;
+	height:35px;
+	border-radius:5px;
+	background-color:yellow;
+	font-weight:bolder;
+	margin-left:-190px;
+}
+
+h2
+{
+	margin-left:-200px;
+	font-weight:bold;
+}
+
+#footer
+{
+ height:200px;
+ width:100%;
+ margin-top:50px; 
+}
+
+#footer a
+{
+margin-left:130px;
+font-size:11px;
+color:white;
+opacity:0.7;
+line-height:17px;
+text-decoration:none;	
+}
+
+#footer a:hover
+{
+color:#11A18A;
+opacity:0.9;
+text-decoration:none;	
+transition: all 0.30s;
+}
+
+#footer b
+{
+ font-size:15px;
+}
+
+#bottom
+{
+height:85px;	
+}
+
+#social
+{
+margin-left:820px;
+margin-top:70px;
+height:50px;
+}
+
+#license
+{    
+	color:white;
+	opacity:0.4;
+	font-size:11px;
+}
+
+#license a
+{
+  text-decoration:none;	
+  color:white;
+}
+
+#license a:hover
+{
+	color:#11A18A;
+	transition: all 0.3s;
+}
+
+
